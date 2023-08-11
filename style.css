@@ -1,0 +1,101 @@
+* {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: #7C8798;
+}
+
+body {
+    background-color: #121417;;
+}
+
+button:hover, .circle-bg:hover, label {
+    cursor: pointer;
+}
+
+#main, #thankyou-container{
+    background-color: #252D37;
+    padding: 20px;
+    border-radius: 15px;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#thankyou-container {
+    display: none;
+}
+
+#thankyou-container {
+    text-align: center;
+}
+
+.selected {
+    color:#FB7413;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+button {
+    background-color: #FB7413;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+#star-icon {
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 100px;
+}
+
+#revealRating {
+    background-color: rgba(255, 255, 255, 0.10);
+    color:#FB7413;
+    border-radius: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#answer {
+    color:#FB7413; 
+}
+
+input {
+    visibility:hidden;
+}
+
+input:checked + label {
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-bg, label {
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 100px;
+    padding: 8px 14px;
+}
+
+button:hover{
+    color:#FB7413;
+    background-color: white;
+}
+
+label:hover {
+    background-color: #FB7413;
+    color: white;
+}
